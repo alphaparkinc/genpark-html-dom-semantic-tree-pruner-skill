@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genpark-html-dom-semantic-tree-pruner-skill"
+version = "1.0.0"
+description = "Zero-dependency HTML DOM semantic tree pruner compressing web markup into accessibility-friendly clean trees with 80%+ token reduction."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "GenPark AI", email = "engineering@genpark.ai"}]
+keywords = ["ai-agent", "mcp", "web-browsing", "dom-pruning", "zero-dependency"]
+dependencies = []
+
+[project.urls]
+Homepage = "https://genpark.ai/mcp"
+Repository = "https://github.com/alphaparkinc/genpark-html-dom-semantic-tree-pruner-skill"
