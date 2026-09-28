@@ -1,0 +1,26 @@
+{
+  "name": "genpark-html-dom-semantic-tree-pruner-skill",
+  "version": "1.0.0",
+  "description": "Zero-dependency HTML DOM semantic tree pruner compressing web markup into accessibility-friendly clean trees with 80%+ token reduction.",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "dom-pruning",
+    "html-parser",
+    "web-agent",
+    "token-reduction",
+    "accessibility-tree",
+    "zero-dependency",
+    "mcp"
+  ],
+  "tools": [
+    {
+      "name": "prune_html",
+      "description": "Prune raw HTML into clean semantic text and interactive element tree."
+    },
+    {
+      "name": "run_benchmark_dom_pruner",
+      "description": "Run DOM pruning benchmark."
+    }
+  ]
+}
